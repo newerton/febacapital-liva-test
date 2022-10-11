@@ -1,0 +1,108 @@
+#contact {
+  background: var(--color-dark);
+  padding: 64px 25px 50px;
+}
+
+#contact h2 {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 2.0625rem;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+#contact p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin-bottom: 33px;
+}
+
+#contact small {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+#contact .info-title {
+  max-width: 413px;
+  line-height: 20px;
+}
+
+#contact .info-title>p>span {
+  font-weight: 500;
+}
+
+#contact .info-title>h2>.new-line {
+  margin-bottom: 12px;
+}
+
+#contact form {
+  border-radius: 4px;
+  z-index: 1;
+  width: 100%;
+  padding: 37px 20px;
+  margin-bottom: 40px;
+}
+
+#contact .info {
+  width: 100%;
+  background-color: var(--color-dark);
+}
+
+#contact .image {
+  width: 45%;
+}
+
+.image {
+  opacity: 0.5;
+}
+
+#contact form h3 {
+  font-size: 16px;
+}
+
+#btn-submit {
+  width: 100%;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 2.25rem;
+  }
+
+  #contact p {
+    font-size: 1.125rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  #contact {
+    padding: 0;
+  }
+
+  #contact>.container {
+    background: var(--color-dark) url('../images/enterprise/picture4.jpg') center right no-repeat;
+    max-height: 638px;
+  }
+
+  #contact form {
+    max-width: 470px;
+    margin-top: 57px;
+  }
+
+  #contact .info-title {
+    margin-top: 108px;
+  }
+
+  #contact .info {
+    width: 55%;
+    align-self: center;
+  }
+
+  .info {
+    padding: 100px;
+  }
+}

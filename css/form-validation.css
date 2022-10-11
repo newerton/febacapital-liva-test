@@ -1,0 +1,11 @@
+.form-control {
+  font: 500 12px "Poppins";
+  border-width: 2px;
+  border-radius: 4px;
+  box-shadow: none;
+  border-color: var(--color-dark)
+}
+
+.invalid-feedback {
+  font-size: 10px;
+}

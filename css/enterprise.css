@@ -1,0 +1,116 @@
+#enterprise {
+  padding: 64px 25px;
+}
+
+#enterprise-list {
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+#enterprise-list li {
+  width: 100%;
+  max-width: 400px;
+}
+
+#enterprise-list figure {
+  position: relative;
+  height: 300px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--color-dark);
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+#enterprise-list figcaption {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+
+  font: 500 1rem/1rem 'Poppins';
+  color: #fff;
+}
+
+#enterprise-list img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  opacity: 0.8;
+}
+
+#enterprise-list img:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 992px) {
+
+  #enterprise-list {
+    gap: 16px;
+  }
+
+  #enterprise-list li {
+    width: 24%;
+    min-width: 250px;
+  }
+
+}
+
+#enterprise h2,
+#enterprise strong {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+#enterprise strong {
+  color: var(--color-primary-green);
+  font-weight: 400;
+}
+
+.btn-filter {
+  background-color: black;
+  font: 400 16px 'Poppins';
+  max-height: 50px;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+#enterprise .select-filter select {
+  align-items: center;
+  max-width: 400px;
+  height: 50px;
+
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: none;
+
+  font: 400 16px 'Poppins';
+}
+
+.select-filter option {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .btn-filter {
+    width: 150px;
+  }
+
+  .select-filter {
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  #enterprise .select-filter select {
+    max-width: 500px;
+  }
+
+  #enterprise h2,
+  #enterprise strong {
+    font-size: 48px;
+  }
+}

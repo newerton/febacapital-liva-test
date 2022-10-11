@@ -1,0 +1,114 @@
+#featureCarousel .carousel-inner,
+#featureCarousel .carousel-item {
+  height: 60vh;
+  background-color: #000;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  opacity: 0.6;
+}
+
+#featureCarousel .carousel-caption {
+  text-align: left;
+  top: 15%;
+  left: 5%;
+  bottom: auto;
+  right: auto;
+}
+
+#featureCarousel .carousel-caption div.tag {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#featureCarousel .carousel-caption h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#featureCarousel .carousel-caption p {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: var(--color-description);
+  color: var(--color-dark);
+  text-align: center;
+  border-radius: 4px;
+  padding: 3px 4px;
+}
+
+#featureCarousel .carousel-caption a {
+  border-radius: 4px;
+}
+
+#featureCarousel .carousel-control-next,
+#featureCarousel .carousel-control-prev {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: rgba(0, 0, 0, 1);
+  margin-top: -64px;
+  left: 5%;
+}
+
+#featureCarousel .carousel-control-next-icon {
+  background-image: url("../images/icons/arrowright.svg");
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#featureCarousel .carousel-control-prev-icon {
+  background-image: url("../images/icons/arrowleft.svg");
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #featureCarousel .carousel-caption {
+    top: 25%;
+    left: 10%;
+  }
+
+  #featureCarousel .carousel-caption div.tag {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  #featureCarousel .carousel-caption h2 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  #featureCarousel .carousel-caption p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: #dcf8b1;
+    color: #03110d;
+    text-align: center;
+    border-radius: 0.25rem;
+  }
+
+  #featureCarousel .carousel-caption a {
+    border-radius: 0.25rem;
+  }
+
+  #featureCarousel .carousel-control-next,
+  #featureCarousel .carousel-control-prev {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 0, 0, 1);
+    top: 50%;
+  }
+
+  #featureCarousel .carousel-control-prev {
+    left: 0;
+  }
+
+  #featureCarousel .carousel-control-next {
+    right: 0;
+    left: auto;
+  }
+}

@@ -1,0 +1,65 @@
+#mosaic {
+  display: grid;
+  grid-template-areas:
+    "a a b c"
+    "a a d e"
+    "f g h i";
+  gap: 15px;
+  margin-bottom: 49px;
+}
+
+#mosaic figure,
+#mosaic img {
+  width: 100%;
+  height: 100%;
+}
+
+#mosaic figure {
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--color-dark);
+  position: relative;
+  cursor: pointer;
+}
+
+#mosaic img {
+  opacity: 0.8;
+}
+
+#mosaic img:hover {
+  opacity: 0.5;
+}
+
+#mosaic figcaption {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  font: 500 1rem/1rem 'Poppins';
+  color: #fff;
+}
+
+#mosaic figcaption .label {
+  padding: 14px;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+
+#mosaic .first-image {
+  grid-area: a;
+
+}
+
+@media (max-width: 768px) {
+  #mosaic {
+    display: block;
+  }
+
+  #mosaic figure {
+    height: 300px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
