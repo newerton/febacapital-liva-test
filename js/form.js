@@ -6,6 +6,7 @@
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
       var forms = document.getElementsByClassName("needs-validation");
       // Loop over them and prevent submission
+
       var validation = Array.prototype.filter.call(forms, function (form) {
         form.addEventListener(
           "submit",
@@ -17,7 +18,7 @@
             } else {
               $("#myModal").modal("show");
               form.classList.remove("was-validated");
-              form.reset()
+              form.reset();
               event.preventDefault();
               event.stopPropagation();
             }
@@ -29,3 +30,7 @@
     false
   );
 })();
+
+$(document).ready(function () {
+  $("input#phone").mask('(00) 0 0000-0000');
+});
