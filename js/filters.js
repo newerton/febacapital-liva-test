@@ -1,5 +1,5 @@
 import renderEnterpriseList from "./enterprise-list.js";
-import enterprise from "/data/enterprise.json" assert { type: "json" };
+import enterprise from "./../data/enterprise.json" assert { type: "json" };
 const data = enterprise;
 
 const [location] = $("#location");
