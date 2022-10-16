@@ -4,125 +4,125 @@
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Mangabeira",
-    "image": "/images/mosaic/image1.jpg"
+    "image": "./images/mosaic/image1.jpg"
   },
   {
     "title": "HORIZONTE RESIDENCE",
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Mangabeira",
-    "image": "/images/mosaic/image1@2x.jpg"
+    "image": "./images/mosaic/image1@2x.jpg"
   },
   {
     "title": "ONE TOWER",
     "type": "Apartamento",
     "city": "Natal",
     "neighborhood": "Ponta Negra",
-    "image": "/images/mosaic/image2.jpg"
+    "image": "./images/mosaic/image2.jpg"
   },
   {
     "title": "ONE TOWER",
     "type": "Apartamento",
     "city": "Natal",
     "neighborhood": "Ponta Negra",
-    "image": "/images/mosaic/image2@2x.jpg"
+    "image": "./images/mosaic/image2@2x.jpg"
   },
   {
     "title": "INFINITY COAST",
     "type": "Casa",
     "city": "Recife",
     "neighborhood": "Boa Viagem",
-    "image": "/images/mosaic/image3.jpg"
+    "image": "./images/mosaic/image3.jpg"
   },
   {
     "title": "INFINITY COAST",
     "type": "Casa",
     "city": "Recife",
     "neighborhood": "Boa Viagem",
-    "image": "/images/mosaic/image3@2x.jpg"
+    "image": "./images/mosaic/image3@2x.jpg"
   },
   {
     "title": "SKYLINE TOWER",
     "type": "Apartamento",
     "city": "Recife",
     "neighborhood": "Torre",
-    "image": "/images/mosaic/image4.jpg"
+    "image": "./images/mosaic/image4.jpg"
   },
   {
     "title": "SKYLINE TOWER",
     "type": "Apartamento",
     "city": "Recife",
     "neighborhood": "Torre",
-    "image": "/images/mosaic/image4@2x.jpg"
+    "image": "./images/mosaic/image4@2x.jpg"
   },
   {
     "title": "GRANDE PLACE TOWER",
     "type": "Casa",
     "city": "Recife",
     "neighborhood": "Casa Amarela",
-    "image": "/images/mosaic/image5.jpg"
+    "image": "./images/mosaic/image5.jpg"
   },
   {
     "title": "GRANDE PLACE TOWER",
     "type": "Casa",
     "city": "Recife",
     "neighborhood": "Casa Amarela",
-    "image": "/images/mosaic/image5@2x.jpg"
+    "image": "./images/mosaic/image5@2x.jpg"
   },
   {
     "title": "IMPERIUM TOWER",
     "type": "Apartamento",
     "city": "Recife",
     "neighborhood": "Boa Viagem",
-    "image": "/images/mosaic/image6.jpg"
+    "image": "./images/mosaic/image6.jpg"
   },
   {
     "title": "IMPERIUM TOWER",
     "type": "Apartamento",
     "city": "Recife",
     "neighborhood": "Boa Viagem",
-    "image": "/images/mosaic/image6@2x.jpg"
+    "image": "./images/mosaic/image6@2x.jpg"
   },
   {
     "title": "TITANIUM TOWER",
     "type": "Casa",
     "city": "Natal",
     "neighborhood": "Alecrim",
-    "image": "/images/mosaic/image7.jpg"
+    "image": "./images/mosaic/image7.jpg"
   },
   {
     "title": "TITANIUM TOWER",
     "type": "Casa",
     "city": "Natal",
     "neighborhood": "Alecrim",
-    "image": "/images/mosaic/image7@2x.jpg"
+    "image": "./images/mosaic/image7@2x.jpg"
   },
   {
     "title": "BLUE COST TOWER",
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Cabo Branco",
-    "image": "/images/mosaic/image8.jpg"
+    "image": "./images/mosaic/image8.jpg"
   },
   {
     "title": "BLUE COST TOWER",
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Cabo Branco",
-    "image": "/images/mosaic/image8@2x.jpg"
+    "image": "./images/mosaic/image8@2x.jpg"
   },
   {
     "title": "GRAND PLACE TOWER",
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Cabo Branco",
-    "image": "/images/mosaic/image9.jpg"
+    "image": "./images/mosaic/image9.jpg"
   },
   {
     "title": "GRAND PLACE TOWER",
     "type": "Apartamento",
     "city": "João Pessoa",
     "neighborhood": "Cabo Branco",
-    "image": "/images/mosaic/image9@2x.jpg"
+    "image": "./images/mosaic/image9@2x.jpg"
   }
 ]
