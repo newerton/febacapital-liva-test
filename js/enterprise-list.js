@@ -1,4 +1,4 @@
-import enterprise from "./data/enterprise.json" assert { type: "json" };
+import enterprise from "./../data/enterprise.json" assert { type: "json" };
 const data = enterprise;
 const [enterpriseList] = $("#enterprise-list");
 
